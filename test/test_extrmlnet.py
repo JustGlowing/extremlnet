@@ -58,7 +58,7 @@ class TestExtrmlNet:
         X = np.ones((10, 10))
         y = np.ones((10, 2))
         net.fit(X,y)
-        np.testing.assert_array_equal(net.predict(X), y)
+        np.testing.assert_array_almost_equal(net.predict(X), y)
         net = ExtrmlNet(1,random_seed=1)
         X = np.ones((10, 10))
         y = np.zeros((10, 2))
