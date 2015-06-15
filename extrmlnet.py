@@ -26,7 +26,7 @@ class ExtrmlNet:
           - gamma, regularization parameter. This parameter is able to reduce overfitting.
                    The greater this value will be, the less overfitting you have but also greater bias.
           - random_seed, random seed to use when generating the weights.
-                         (Notice if the seed is passed the contructor will call
+                         (Notice if the seed is passed, the constructor will call
                          numpy.seed() affecting your future numpy.random calls)
         """
         if random_seed:
