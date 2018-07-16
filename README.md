@@ -3,7 +3,7 @@ ExtrmlNet
 
 ExtrmlNet implements a Single Layer Feedforward Neural Network trained with the Extreme Learning Machine algorithm.
 
-Using ExtrmlNet is easy as any sklearn model:
+Using ExtrmlNet is easy to use as any sklearn model:
 
 ```
 from extrmlnet import ExtrmlNet
